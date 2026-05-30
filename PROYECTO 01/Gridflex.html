@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid and Flex</title>
+    <style>
+        .gridcontainer{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid gap: 50px;
+
+            /* Flexbox */
+            .gridcontainer{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                
+            }
+        }
+        .gridElemento{
+            background-color: rgba(221, 173, 230, 0.609);
+            border: 1px solid rgba(241, 236, 236, 0.453);
+            padding: 10px;
+            align-items: center;
+            opacity: 0.8;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de Grid</h1>
+    <div class="gridcontainer">
+        <div class="gridElemento">Elemento 1</div>
+        <div class="gridElemento">Elemento 2</div>
+        <div class="gridElemento">Elemento 3</div>
+        <div class="gridElemento">Elemento 4</div>
+        <div class="gridElemento">Elemento 5</div>
+        <div class="gridElemento">Elemento 6</div>
+    </div>
+</body>
+</html>
